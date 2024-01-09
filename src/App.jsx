@@ -1,35 +1,50 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useState } from "react";
+import reactLogo from "./assets/react.svg";
+import viteLogo from "/vite.svg";
+import "./App.css";
+import Header from "../components/Header";
+import Caption from "../components/Caption";
+import Chapter from "../components/Chapter";
+import Chapters from "../components/Chapters";
+import image1 from "../src/images/tree.png";
+import image2 from "../src/images/back.jpg";
+import Legend from "../components/Legend";
+import Data from "../src/data.json"
+import Subtitles from "../components/Subtitles";
+
+const mockChapters = [
+  { img: "../images/tree.png", title: "Tree Title",},
+  { img: "../images/tree.png", title: "Tree Title",},
+  { img: "../images/tree.png", title: "Tree Title",},
+  { img: "../images/tree.png", title: "Tree Title",},
+  { img: "../images/tree.png", title: "Tree Title",},
+  { img: "../images/tree.png", title: "Tree Title",},
+  { img: "../images/tree.png", title: "Tree Title",},
+  { img: "../images/tree.png", title: "Tree Title",},
+  { img: "../images/tree.png", title: "Tree Title",},
+  { img: "../images/tree.png", title: "Tree Title",},
+];
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    <div>
+      <Caption
+        title={Data.captionTitle}
+        imgNumber=""
+        logo=""
+      ></Caption>
+      <hr />
+      <Header title={Data.title}></Header>
+      <hr />
+      <Chapters items={Data.chapters}></Chapters>
+      <hr />
+      <Subtitles items={Data.subtitles}></Subtitles>
+      <img src={image2} alt="" />
+      <Legend text={Data.legend}></Legend>
+    </div>
+  );
 }
 
-export default App
+export default App;

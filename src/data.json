@@ -1,0 +1,59 @@
+{
+  "captionTitle": "The MONOLOGUE travel guide series",
+  "title": "Japanese Ilustration",
+  "image": "../src/images/back.jpg",
+  "legend": "this is where the legend should be",
+  "chapters": [
+    {
+      "chapterTitle": "Chapter 1",
+      "chapterIcon": "1"
+    },
+    {
+      "chapterTitle": "Chapter 2",
+      "chapterIcon": "2"
+    },
+    {
+      "chapterTitle": "Chapter 3",
+      "chapterIcon": "3"
+    },
+    {
+      "chapterTitle": "Chapter 4",
+      "chapterIcon": "4"
+    },
+    {
+      "chapterTitle": "Chapter 5",
+      "chapterIcon": "5"
+    },
+    {
+      "chapterTitle": "Chapter 6",
+      "chapterIcon": "6"
+    },
+    {
+      "chapterTitle": "Chapter 7",
+      "chapterIcon": "7"
+    },
+    {
+      "chapterTitle": "Chapter 8",
+      "chapterIcon": "8"
+    },
+    {
+      "chapterTitle": "Chapter 9",
+      "chapterIcon": "9"
+    },
+    {
+      "chapterTitle": "Chapter 10",
+      "chapterIcon": "10"
+    }
+  ],
+  "subtitles": [
+    {
+        "title": "Subtitle 1"
+    },
+    {
+        "title": "Subtitle 2"
+    },
+    {
+        "title": "Subtitle 3"
+    }
+  ]
+}

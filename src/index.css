@@ -66,3 +66,39 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+
+.modal-content {
+  top: 0;
+  background-color: rgb(221, 175, 241);
+  border-radius: 16px;
+  text-align: center;
+}
+
+.close-modal-button {
+  font-size: 16px;
+  background-color: transparent;
+}
+
+button:hover {
+  border-color: transparent;
+}
+
+.close-modal-button-container { 
+  display: flex;
+  justify-content: end;
+}
+
+.modal-title {
+  margin-top: 0;
+}
+
+.button-one {
+  background-color: rgb(160, 164, 244);
+  color: white;
+}
+
+.button-one:hover {
+  background-color: white;
+  color:  rgb(160, 164, 244);
+}

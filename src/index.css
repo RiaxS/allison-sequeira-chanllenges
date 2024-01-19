@@ -102,3 +102,8 @@ button:hover {
   background-color: white;
   color:  rgb(160, 164, 244);
 }
+
+.button-one:active {
+  background-color: rgb(105, 112, 248);
+  color: white;
+}

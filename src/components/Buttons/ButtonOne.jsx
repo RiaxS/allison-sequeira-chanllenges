@@ -1,7 +1,7 @@
-export default () => {
+export default ({text}) => {
     return (
         <>
-        <button className="button-one">Option One</button>
+        <button className="button-one">{text}</button>
         </>
     )
 }

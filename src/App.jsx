@@ -19,12 +19,11 @@ function App() {
       <Input></Input>
       <div className="buttons-containers">
         <p>Plain Css</p>
-      <ButtonOne />
+      <ButtonOne text="Option One"/>
       <p>CSS Modules</p>
-      <ButtonTwo />
+      <ButtonTwo text="Option Two"/>
       <p>Styled Components</p>
-
-      <ButtonThree />
+      <ButtonThree text="Option Three"/>
       </div>
     </>
   );

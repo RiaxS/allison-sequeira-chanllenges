@@ -1,9 +1,9 @@
 import styles from './Button.module.css';
 
-export default () => {
+export default ({text}) => {
   return (
     <>
-      <button className={styles.button} type="button">Option Two</button>
+      <button className={styles.button} type="button">{text}</button>
     </>
   );
 };

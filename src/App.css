@@ -40,3 +40,44 @@
 .read-the-docs {
   color: #888;
 }
+
+.card-image {
+  width: 200px;
+  height: 200px;
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 24px;
+}
+
+.single-card {
+  align-items: center;
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 16px;
+  padding-top: 16px;
+}
+
+.add-button {
+  align-self: center;
+  margin-bottom: 16px;
+}
+
+.card-title {
+  color: #1a1a1a;
+  height: 50px;
+  margin-top: 30px;
+  margin-bottom: 12px;
+  padding: 0 10px;
+  text-overflow: ellipsis;
+  text-wrap: nowrap;
+  overflow: hidden;
+}
+
+.card-price {
+  color: #1a1a1a;
+}

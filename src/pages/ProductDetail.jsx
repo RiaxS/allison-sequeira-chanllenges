@@ -31,6 +31,7 @@ const ProductDetail = () => {
   const { data } = useFecth();
   const [productInfo, setProductInfo] = useState({});
 
+  // use effect for find the specific product by id to show on details page
   useEffect(() => {
     if (data?.products) {
       const findProduct = data.products.find(
@@ -40,14 +41,11 @@ const ProductDetail = () => {
     }
   }, [data]);
 
-  const [quantity, setQuantity] = useState(1); // Estado para la cantidad seleccionada
-
-  // Función para incrementar la cantidad
+  const [quantity, setQuantity] = useState(1); 
   const incrementQuantity = () => {
     setQuantity(quantity + 1);
   };
 
-  // Función para decrementar la cantidad, con validación para no permitir valores negativos
   const decrementQuantity = () => {
     if (quantity > 1) {
       setQuantity(quantity - 1);

@@ -1,0 +1,55 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Aceitunas y Romero",
+        "shortDesc": "Aceitunas marinadas con romero",
+        "description": "Deliciosas aceitunas marinadas con romero fresco.",
+        "price": 5000,
+        "grams": 800,
+        "availability": true,
+        "image": "aceitunas.png"
+      },
+      {
+        "id": 2,
+        "name": "Oregano y Queso",
+        "shortDesc": "Pan con queso y orégano",
+        "description": "Pan crujiente cubierto con queso derretido y espolvoreado con orégano fresco.",
+        "price": 4000,
+        "grams": 800,
+        "availability": true,
+        "image": "oregano_queso.png"
+      },
+      {
+        "id": 3,
+        "name": "Hogaza Tradicional",
+        "shortDesc": "Pan tradicional crujiente",
+        "description": "Una hogaza de pan recién horneado, con una corteza crujiente y miga esponjosa.",
+        "price": 3000,
+        "grams": 800,
+        "availability": true,
+        "image": "hogaza_tradicional.png"
+      },
+      {
+        "id": 4,
+        "name": "Pan de Molde",
+        "shortDesc": "Pan de molde suave",
+        "description": "Pan de molde suave y esponjoso, perfecto para hacer sándwiches.",
+        "price": 2000,
+        "grams": 750,
+        "availability": true,
+        "image": "pan_molde.png"
+      },
+      {
+        "id": 5,
+        "name": "Bollitos",
+        "shortDesc": "Bollitos recién horneados",
+        "description": "Bollitos recién horneados, ideales para el desayuno o la merienda.",
+        "price": 2000,
+        "grams": 80,
+        "availability": true,
+        "image": "bollitos.png"
+      }
+    ]
+  }
+  
